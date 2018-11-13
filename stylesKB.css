@@ -1,0 +1,59 @@
+body {
+    background-color: rgba(255, 255, 0, 0.123);
+}
+
+textarea {
+    width: 3rem;
+    height: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .9rem;
+    border-top-color: rgba(103, 153, 10, 0.377);
+    border-left-color: rgba(43, 65, 4, 0.5);
+    border-width: .2rem;
+    resize: both;
+    border-bottom-right-radius: 10%;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom-color: rgba(4, 69, 99, 0.295);
+    border-right-color: rgba(4, 77, 110, 0.192);
+}
+
+button {
+    padding: 0rem .9em .3rem .7rem;
+    color: rgba(5, 85, 122, 0.623);
+    background-color: rgba(103, 153, 10, 0.5);
+    font-size: .9rem;
+    text-align: top;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+span.letter {
+    display: inline-block;
+    margin: .1rem 0.3rem 0.3rem 0.1rem;
+    padding: .2rem 0.8rem 0.2rem 0.8rem;
+    border: .1rem solid rgba(142, 58, 221, 0.514);
+    border-radius: 10%;
+    color: whitesmoke;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div#keys {
+    margin: 2rem 2rem 5rem 2rem;
+    width: 23rem;
+}
+
+div#txt1,
+#txt2 {
+    margin: 3rem 0.5rem 0rem 0.1rem;
+    width: 23rem;
+    padding: 0rem 0rem 0rem .2rem;
+}
+
+h4 {
+    width: 26rem;
+    margin: .5rem 0.5rem 0.6rem 0.2rem;
+}
